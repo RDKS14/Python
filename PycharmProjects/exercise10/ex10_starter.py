@@ -16,13 +16,13 @@ print(glo)
 files = os.listdir()
 for file in files:
     size = os.path.getsize(file)
-    print(files, size)
+    print(file, size)
 # TODO: Add a test to only display files that do not have a size of zero
 files = os.listdir()
 for file in files:
     size = os.path.getsize(file)
     if size >0:
-        print(files, size)
+        print(file, size)
 # TODO: Remove the leading directory name(s) from each filename before you print it -
 # using os.path.basename()
 files = os.listdir()
