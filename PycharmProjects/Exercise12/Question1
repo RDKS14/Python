@@ -1,4 +1,0 @@
-Cheese = ['Cheddar', 'Stilton', 'Cornish Yarg']
-Cheese + [3]'Oke'
-
-print(Cheese)
